@@ -1,0 +1,28 @@
+$primary-color: #fff;
+$secondary-color: #fff100;
+$Frist-color: #F11133;
+$font-size: 20px;
+
+.bg-main {
+    background-color: $secondary-color ;
+}
+
+
+.bg-frist {
+    color: $Frist-color;
+}
+
+.imgsearch {
+    position: absolute;
+    top: 10px;
+    font-weight: 600;
+    width: 20px;
+    left: 18px;
+}
+.textsearch{
+    position: absolute;
+    top: 5px;
+    width: 69px;
+    font-weight: 600;
+    left: 42px;
+}
