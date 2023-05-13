@@ -21,10 +21,10 @@ export default function Navbar() {
             <div className="container">
                 <img src={bard} alt="" />
                 <a className="navbar-brand mx-3" href="#"><img src={logo2} className='w-100' alt="" /></a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent1">
                     <ul className="navbar-nav m-auto mb-2 mb-lg-0">
                         <li className="nav-item  d-flex align-items-center justify-content-center">
                             <i className="fa-solid text-black fa-chevron-left"></i>
@@ -60,10 +60,10 @@ export default function Navbar() {
                     <span className='textsearch' alt="">search</span>
                     <input className="form-control me-2 rounded-5 fw-bold " type="search" aria-label="Search" />
                 </form>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent2">
                     {/* <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
